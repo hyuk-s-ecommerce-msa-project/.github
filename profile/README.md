@@ -39,7 +39,6 @@
 - MSA 가용성 및 장애 내성 (Resilience)
   - Circuit Breaker 적용: Order-Service 호출 시 Spring Cloud Circuit Breaker를 적용하여, 주문 서비스 장애가 유저 서비스 전체로 확산되는 '장애 전파(Cascading Failure)' 방지
   - Fallback 로직 구현: 타 서비스 장애 시에도 빈 리스트를 반환하는 등의 Fallback 처리를 통해 사용자에게 최소한의 기능(유저 기본 정보 조회 등)은 중단 없이 제공
-  - 
 
 ## 주문
 - 주문(Order) 서비스는 프로젝트 내에서 가장 높은 트래픽과 쓰기 부하가 집중되는 핵심 도메인
